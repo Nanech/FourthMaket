@@ -11,11 +11,26 @@
                   <entry key="vectorAssetStep">
                     <value>
                       <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="clipartAsset">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="url" value="jar:file:/D:/android/Android/plugins/android/lib/android.jar!/images/material/icons/materialicons/phone/baseline_phone_24.xml" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
                         <option name="values">
                           <map>
-                            <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="thelogo" />
-                            <entry key="sourceFile" value="D:\graphic.svg" />
+                            <entry key="color" value="c9c9c9" />
+                            <entry key="outputName" value="phone" />
+                            <entry key="sourceFile" value="D:\Загрузки\phonereceiver_99743 1.svg" />
                           </map>
                         </option>
                       </PersistentState>
