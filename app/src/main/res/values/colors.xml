@@ -9,8 +9,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="pink">#FC354B</color>
+    <color name="blackpink">#DF3548</color>
     <color name="grayText">#C9C9C9</color>
+    <color name="underBtn">#E3E3E3</color>
     <color name="grayOnSecondPage">#EEEEEE</color>
+    <color name="grayNotActiveCircle">#E6E6E6</color>
     <color name="theLineColor">#999999</color>
 
 
