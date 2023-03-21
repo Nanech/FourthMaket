@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/TheLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -19,44 +19,102 @@
         app:srcCompat="@drawable/thelogo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Autohrization"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/googlesans_regular"
         android:text="Авторизация"
+        android:textAlignment="center"
         android:textColor="@color/pink"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/TheLogo" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="250dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@+id/Autohrization">
 
-
-        <com.google.android.material.textfield.TextInputLayout
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/Phone"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/theLineColor"
+            android:drawableStart="@drawable/phone"
+            android:drawablePadding="18dp"
             android:layout_gravity="center"
-            android:layout_width="230dp"
-            android:background="@color/white"
-            app:startIconDrawable="@drawable/phone"
+            android:hint="Номер телефона"
+            android:fontFamily="@font/googlesans_regular"
+            android:textSize="16sp"
             android:textColorHint="@color/grayText"
-            android:layout_height="match_parent">
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/the_hint"
-                android:layout_gravity="center_horizontal"
-                android:inputType="phone"
-                android:gravity="center"/>
-        </com.google.android.material.textfield.TextInputLayout>
+            android:ems="10"
+            android:inputType="phone" />
 
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/ThePassword"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/lock"
+            android:drawablePadding="50dp"
+            android:textSize="16sp"
+            android:backgroundTint="@color/theLineColor"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Пароль"
+            android:textColorHint="@color/grayText"
+            android:ems="10"
+            android:inputType="textPassword" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:background="@drawable/btn_main_activity_shape"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/googlesans_regular"
+            android:textColorHint="@color/white"
+            android:hint="Войти"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:text="Регистрация"
+            android:textColor="@color/grayText"
+            />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/TheVk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="170dp"
+        app:srcCompat="@drawable/vk_logo" />
+
+    <ImageView
+        android:id="@+id/TheInst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TheVk"
+        android:layout_marginStart="10dp"
+        app:srcCompat="@drawable/inst_logo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
