@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Cart">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <ImageView
+               android:id="@+id/logoAsText2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="15dp"
+               android:src="@drawable/name_of_company_only_text" />
+
+           <View
+               android:id="@+id/view2"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:layout_marginStart="15dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="15dp"
+               android:background="@color/pink" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="15dp"
+               android:layout_marginTop="15dp"
+               android:fontFamily="@font/googlesans_bold"
+               android:text="Корзина"
+               android:textColor="@color/pink"
+               android:textSize="15sp" />
+
+           <LinearLayout
+               android:layout_marginStart="15dp"
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <RelativeLayout
+                   android:id="@+id/ralatTheCart"
+                   android:layout_gravity="center"
+                   android:layout_width="360dp"
+                   android:layout_height="80dp">
+
+                   <ImageView
+                       android:layout_centerVertical="true"
+                       android:layout_gravity="left"
+                       android:layout_width="70dp"
+                       android:layout_height="70dp"
+                       android:src="@drawable/pink_donut"
+                       android:elevation="3dp"/>
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentEnd="true"
+                       android:layout_marginEnd="15dp"
+                       android:layout_marginTop="4dp"
+                       android:elevation="10dp"
+                       android:src="@drawable/the_x" />
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_centerHorizontal="true"
+                       android:layout_centerVertical="true"
+                       android:layout_width="320dp"
+                       android:layout_height="60dp"
+                       app:cardCornerRadius="15dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:orientation="horizontal">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="60dp"
+                               android:text="@string/theTitle"
+                               android:textColor="@color/pink"
+                               android:fontFamily="@font/googlesans_bold"
+                               android:layout_gravity="center"
+                               android:textSize="12sp" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="20dp"
+                               android:text="34 руб. 99 коп. (1 шт.)"
+                               android:textColor="@color/pink"
+                               android:fontFamily="@font/googlesans_bold"
+                               android:textSize="10sp"
+                               android:layout_gravity="center"
+                               />
+                       </LinearLayout>
+                   </androidx.cardview.widget.CardView>
+               </RelativeLayout>
+               <RelativeLayout
+                   android:id="@+id/ralatTheCart1"
+                   android:layout_marginTop="10dp"
+                   android:layout_gravity="center"
+                   android:layout_width="360dp"
+                   android:layout_height="80dp">
+
+                   <ImageView
+                       android:layout_centerVertical="true"
+                       android:layout_gravity="left"
+                       android:layout_width="70dp"
+                       android:layout_height="70dp"
+                       android:src="@drawable/rainbow"
+                       android:elevation="3dp"/>
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentEnd="true"
+                       android:layout_marginEnd="15dp"
+                       android:layout_marginTop="4dp"
+                       android:elevation="10dp"
+                       android:src="@drawable/the_x" />
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_centerHorizontal="true"
+                       android:layout_centerVertical="true"
+                       android:layout_width="320dp"
+                       android:layout_height="60dp"
+                       app:cardCornerRadius="15dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:orientation="horizontal">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="60dp"
+                               android:text="@string/theTitleRainbow"
+                               android:textColor="@color/pink"
+                               android:fontFamily="@font/googlesans_bold"
+                               android:layout_gravity="center"
+                               android:textSize="12sp"
+
+                               />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="20dp"
+                               android:text="67 руб. 98 коп. (2 шт.)"
+                               android:textColor="@color/pink"
+                               android:fontFamily="@font/googlesans_bold"
+                               android:textSize="10sp"
+                               android:layout_gravity="center"
+                               />
+                       </LinearLayout>
+                   </androidx.cardview.widget.CardView>
+               </RelativeLayout>
+
+
+
+
+
+           </LinearLayout>
+
+
+           <View
+               android:id="@+id/view3"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:layout_marginStart="15dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="15dp"
+               android:background="@color/pink" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:gravity="right"
+               android:layout_gravity="right"
+
+               android:layout_marginStart="15dp"
+               android:layout_marginEnd="15dp"
+               android:text="Итого:\n\n102 руб. 97 коп."
+               android:textSize="12sp"
+               android:fontFamily="@font/googlesans_bold"
+               android:textColor="@color/pink"
+               />
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="15dp"
+               android:layout_marginTop="15dp"
+               android:fontFamily="@font/googlesans_bold"
+               android:text="Добавьте к заказу"
+               android:textColor="@color/pink"
+               android:textSize="15sp" />
+
+           <LinearLayout
+               android:layout_marginTop="15dp"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal">
+
+                   <RelativeLayout
+                       android:layout_marginStart="5dp"
+                       android:layout_width="200dp"
+                       android:layout_height="200dp">
+
+                       <ImageView
+                           android:layout_width="60dp"
+                           android:layout_height="60dp"
+                           android:src="@drawable/coffe_casual"
+                           android:scaleType="centerCrop"
+                           android:layout_centerHorizontal="true"
+                           android:elevation="10dp"/>
+
+                       <androidx.cardview.widget.CardView
+                           android:layout_centerHorizontal="true"
+                           android:layout_centerVertical="true"
+                           android:layout_marginTop="40dp"
+                           android:layout_width="180dp"
+                           android:layout_height="160dp"
+                           app:cardCornerRadius="15dp">
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+
+                               <TextView
+                                   android:layout_marginTop="45dp"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:textAlignment="center"
+                                   android:text="@string/theTitle"
+                                   android:textColor="@color/pink"
+                                   android:textSize="12sp"
+                                   />
+
+                               <LinearLayout
+                                   android:layout_marginTop="8dp"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="horizontal"
+                                   android:layout_gravity="center">
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:src="@drawable/star"/>
+
+                               </LinearLayout>
+
+
+                               <LinearLayout
+                                   android:layout_marginTop="14dp"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:orientation="horizontal">
+
+                                   <TextView
+                                       android:id="@+id/rubles"
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginStart="40dp"
+                                       android:fontFamily="@font/googlesans_regular"
+                                       android:text=" ̶7̶5̶ ̶р̶у̶б̶.̶"
+                                       android:textSize="12sp"
+                                       android:layout_gravity="center"/>
+
+                                   <TextView
+
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:text="37 руб\n99 коп."
+                                       android:layout_marginStart="30dp"
+                                       android:textSize="12sp"
+                                       android:textColor="@color/pink" />
+
+                               </LinearLayout>
+
+
+                           </LinearLayout>
+
+
+                       </androidx.cardview.widget.CardView>
+
+                       <Button
+                           android:layout_width="100dp"
+                           android:layout_height="30dp"
+                           android:layout_marginTop="160dp"
+                           android:layout_centerHorizontal="true"
+                           android:hint="Добавить"
+                           android:textSize="8sp"
+                           android:textColorHint="@color/white"
+                           android:background="@drawable/btn_add_to_cart"/>
+
+                   </RelativeLayout>
+
+
+                   <RelativeLayout
+                       android:layout_marginStart="5dp"
+                       android:layout_width="200dp"
+                       android:layout_height="200dp">
+
+                       <ImageView
+                           android:layout_width="60dp"
+                           android:layout_height="60dp"
+                           android:src="@drawable/coffe_kapuchino"
+                           android:layout_centerHorizontal="true"
+                           android:elevation="10dp"/>
+
+                       <androidx.cardview.widget.CardView
+                           android:layout_centerHorizontal="true"
+                           android:layout_centerVertical="true"
+                           android:layout_marginTop="40dp"
+                           android:layout_width="180dp"
+                           android:layout_height="160dp"
+                           app:cardCornerRadius="15dp">
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+
+                               <TextView
+                                   android:layout_marginTop="45dp"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:textAlignment="center"
+                                   android:text="@string/theTitleSmurfik"
+                                   android:textColor="@color/pink"
+                                   android:textSize="12sp"
+                                   />
+
+                               <LinearLayout
+                                   android:layout_marginTop="8dp"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="horizontal"
+                                   android:layout_gravity="center">
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:src="@drawable/sad_star"/>
+
+                               </LinearLayout>
+
+
+                               <LinearLayout
+                                   android:layout_marginTop="14dp"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:orientation="horizontal">
+
+                                   <TextView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginStart="40dp"
+                                       android:fontFamily="@font/googlesans_regular"
+                                       android:text=" ̶8̶0̶ ̶р̶у̶б̶.̶"
+                                       android:textSize="12sp"
+                                       android:layout_gravity="center"/>
+
+                                   <TextView
+
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:text="39 руб\n99 коп."
+                                       android:layout_marginStart="30dp"
+                                       android:textSize="12sp"
+                                       android:textColor="@color/pink" />
+
+                               </LinearLayout>
+
+
+                           </LinearLayout>
+
+
+                       </androidx.cardview.widget.CardView>
+
+                       <Button
+                           android:layout_width="100dp"
+                           android:layout_height="30dp"
+                           android:layout_marginTop="160dp"
+                           android:layout_centerHorizontal="true"
+                           android:hint="Добавить"
+                           android:textSize="8sp"
+                           android:textColorHint="@color/white"
+                           android:background="@drawable/btn_add_to_cart"/>
+
+                   </RelativeLayout>
+
+               </LinearLayout>
+
+
+               <LinearLayout
+                   android:layout_marginTop="20dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal">
+
+                   <RelativeLayout
+                       android:layout_marginStart="5dp"
+                       android:layout_width="200dp"
+                       android:layout_height="200dp">
+
+                       <ImageView
+                           android:layout_width="60dp"
+                           android:layout_height="60dp"
+                           android:src="@drawable/cake_medovik"
+                           android:scaleType="centerCrop"
+                           android:layout_centerHorizontal="true"
+                           android:elevation="10dp"/>
+
+                       <androidx.cardview.widget.CardView
+                           android:layout_centerHorizontal="true"
+                           android:layout_centerVertical="true"
+                           android:layout_marginTop="40dp"
+                           android:layout_width="180dp"
+                           android:layout_height="160dp"
+                           app:cardCornerRadius="15dp">
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+
+                               <TextView
+                                   android:layout_marginTop="45dp"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:textAlignment="center"
+                                   android:text="@string/theTitleRainbow"
+                                   android:textColor="@color/pink"
+                                   android:textSize="12sp"
+                                   />
+
+                               <LinearLayout
+                                   android:layout_marginTop="8dp"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="horizontal"
+                                   android:layout_gravity="center">
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:src="@drawable/star"/>
+
+                               </LinearLayout>
+
+
+                               <LinearLayout
+                                   android:layout_marginTop="14dp"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:orientation="horizontal">
+
+                                   <TextView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginStart="40dp"
+                                       android:fontFamily="@font/googlesans_regular"
+                                       android:text=" ̶7̶5̶ ̶р̶у̶б̶.̶"
+                                       android:textSize="12sp"
+                                       android:layout_gravity="center"/>
+
+                                   <TextView
+
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:text="37 руб\n99 коп."
+                                       android:layout_marginStart="30dp"
+                                       android:textSize="12sp"
+                                       android:textColor="@color/pink" />
+
+                               </LinearLayout>
+
+
+                           </LinearLayout>
+
+
+                       </androidx.cardview.widget.CardView>
+
+                       <Button
+                           android:layout_width="100dp"
+                           android:layout_height="30dp"
+                           android:layout_marginTop="160dp"
+                           android:layout_centerHorizontal="true"
+                           android:hint="Добавить"
+                           android:textSize="8sp"
+                           android:textColorHint="@color/white"
+                           android:background="@drawable/btn_add_to_cart"/>
+
+                   </RelativeLayout>
+
+
+                   <RelativeLayout
+                       android:layout_marginStart="5dp"
+                       android:layout_width="200dp"
+                       android:layout_height="200dp">
+
+                       <ImageView
+                           android:layout_width="60dp"
+                           android:layout_height="60dp"
+                           android:src="@drawable/cake_praga"
+                           android:scaleType="fitCenter"
+                           android:layout_centerHorizontal="true"
+                           android:elevation="10dp"/>
+
+                       <androidx.cardview.widget.CardView
+                           android:layout_centerHorizontal="true"
+                           android:layout_centerVertical="true"
+                           android:layout_marginTop="40dp"
+                           android:layout_width="180dp"
+                           android:layout_height="160dp"
+                           app:cardCornerRadius="15dp">
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+
+                               <TextView
+                                   android:layout_marginTop="45dp"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:textAlignment="center"
+                                   android:text="@string/theTitleNeftanik"
+                                   android:textColor="@color/pink"
+                                   android:textSize="12sp"
+                                   />
+
+                               <LinearLayout
+                                   android:layout_marginTop="8dp"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="horizontal"
+                                   android:layout_gravity="center">
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginEnd="5dp"
+                                       android:src="@drawable/star"/>
+                                   <ImageView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:src="@drawable/star"/>
+
+                               </LinearLayout>
+
+
+                               <LinearLayout
+                                   android:layout_marginTop="14dp"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:orientation="horizontal">
+
+                                   <TextView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_marginStart="40dp"
+                                       android:fontFamily="@font/googlesans_regular"
+                                       android:text=" ̶9̶0̶ ̶р̶у̶б̶.̶"
+                                       android:textSize="12sp"
+                                       android:layout_gravity="center"/>
+
+                                   <TextView
+
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:text="44 руб\n99 коп."
+                                       android:layout_marginStart="30dp"
+                                       android:textSize="12sp"
+                                       android:textColor="@color/pink" />
+
+                               </LinearLayout>
+
+
+                           </LinearLayout>
+
+
+                       </androidx.cardview.widget.CardView>
+
+                       <Button
+                           android:layout_width="100dp"
+                           android:layout_height="30dp"
+                           android:layout_marginTop="160dp"
+                           android:layout_centerHorizontal="true"
+                           android:hint="Добавить"
+                           android:textSize="8sp"
+                           android:textColorHint="@color/white"
+                           android:background="@drawable/btn_add_to_cart"/>
+
+                   </RelativeLayout>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+   </ScrollView>
+
+</FrameLayout>

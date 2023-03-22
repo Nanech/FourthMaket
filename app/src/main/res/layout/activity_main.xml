@@ -76,7 +76,7 @@
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/Acess"
             android:layout_marginTop="25dp"
             android:layout_gravity="center"
             android:layout_width="150dp"
