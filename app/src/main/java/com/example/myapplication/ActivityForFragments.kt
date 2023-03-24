@@ -25,9 +25,10 @@ class ActivityForFragments : AppCompatActivity() {
         blinding.NavigationBar.setOnItemReselectedListener{
 
             when(it.itemId){
-                R.id.homeBtn ->{ replaceFrag(TheHomePageFragment())}
 
+                R.id.homeBtn ->{ replaceFrag(TheHomePageFragment())}
                 R.id.ShopCurtBtn -> {replaceFrag(Cart())}
+                R.id.ProfileBtn -> {replaceFrag(ProfileFragment())}
 
 
                 else -> {  }
@@ -35,6 +36,7 @@ class ActivityForFragments : AppCompatActivity() {
             }
             true
         }
+
 
 
 

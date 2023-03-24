@@ -254,7 +254,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="45dp"
-                                    android:text="@string/theTitle"
+                                    android:text="@string/expresso"
                                     android:textAlignment="center"
                                     android:textColor="@color/pink"
                                     android:textSize="12sp" />
@@ -311,7 +311,7 @@
                                         android:layout_gravity="center"
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
-                                        android:text=" ̶7̶5̶ ̶р̶у̶б̶.̶"
+                                        android:text=" ̶4̶5̶ ̶р̶у̶б̶.̶̶"
                                         android:textSize="12sp" />
 
                                     <TextView
@@ -319,7 +319,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginStart="30dp"
-                                        android:text="37 руб\n99 коп."
+                                        android:text="19 руб\n99 коп."
                                         android:textColor="@color/pink"
                                         android:textSize="12sp" />
 
@@ -373,7 +373,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="45dp"
-                                    android:text="@string/theTitleSmurfik"
+                                    android:text="@string/capuchino"
                                     android:textAlignment="center"
                                     android:textColor="@color/pink"
                                     android:textSize="12sp" />
@@ -429,7 +429,7 @@
                                         android:layout_gravity="center"
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
-                                        android:text=" ̶8̶0̶ ̶р̶у̶б̶.̶"
+                                        android:text=" ̶4̶5̶ ̶р̶у̶б̶.̶"
                                         android:textSize="12sp" />
 
                                     <TextView
@@ -437,7 +437,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginStart="30dp"
-                                        android:text="39 руб\n99 коп."
+                                        android:text="22 руб\n99 коп."
                                         android:textColor="@color/pink"
                                         android:textSize="12sp" />
 
@@ -500,7 +500,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="45dp"
-                                    android:text="@string/theTitleRainbow"
+                                    android:text="@string/honeyCake"
                                     android:textAlignment="center"
                                     android:textColor="@color/pink"
                                     android:textSize="12sp" />
@@ -556,7 +556,7 @@
                                         android:layout_gravity="center"
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
-                                        android:text=" ̶7̶5̶ ̶р̶у̶б̶.̶"
+                                        android:text=" ̶2̶0̶0̶0̶ ̶р̶у̶б̶.̶"
                                         android:textSize="12sp" />
 
                                     <TextView
@@ -564,7 +564,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginStart="30dp"
-                                        android:text="37 руб\n99 коп."
+                                        android:text="999 руб\n99 коп."
                                         android:textColor="@color/pink"
                                         android:textSize="12sp" />
 
@@ -619,7 +619,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="45dp"
-                                    android:text="@string/theTitleNeftanik"
+                                    android:text="@string/napoleon"
                                     android:textAlignment="center"
                                     android:textColor="@color/pink"
                                     android:textSize="12sp" />
@@ -675,7 +675,7 @@
                                         android:layout_gravity="center"
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
-                                        android:text=" ̶9̶0̶ ̶р̶у̶б̶.̶"
+                                        android:text=" ̶1̶0̶0̶0̶ ̶р̶у̶б̶.̶"
                                         android:textSize="12sp" />
 
                                     <TextView
@@ -683,7 +683,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginStart="30dp"
-                                        android:text="44 руб\n99 коп."
+                                        android:text="599 руб\n99 коп."
                                         android:textColor="@color/pink"
                                         android:textSize="12sp" />
 

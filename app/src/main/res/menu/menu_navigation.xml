@@ -17,7 +17,7 @@
         />
     <item android:title="@null"
         android:id="@+id/ProfileBtn"
-        android:icon="@drawable/user_not_active"
+        android:icon="@drawable/user_selector"
         />
 
 </menu>
