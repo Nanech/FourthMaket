@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_For_Fragments">
+    tools:context=".ActivityForFragments">
 
     <!--without scroll view widht and height = 0 dp don`t working -->
     <ScrollView

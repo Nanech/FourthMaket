@@ -4,8 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         hmpg.setOnClickListener()
         {
-            val intent = Intent(this, Activity_For_Fragments::class.java )
+            val intent = Intent(this, ActivityForFragments::class.java )
             startActivity(intent)
         }
 
