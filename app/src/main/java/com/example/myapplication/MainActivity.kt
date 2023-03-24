@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         hmpg.setOnClickListener()
         {
-            val intent = Intent(this, TheHomePageFragment::class.java )
+            val intent = Intent(this, Activity_For_Fragments::class.java )
             startActivity(intent)
         }
 
