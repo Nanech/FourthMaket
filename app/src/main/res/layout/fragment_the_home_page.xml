@@ -6,6 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:fillViewport="true">
 
 
@@ -257,6 +258,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="true"
                             android:layout_marginTop="40dp"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
@@ -326,6 +328,7 @@
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
                                         android:text=" ̶7̶5̶ ̶р̶у̶б̶.̶"
+                                        android:textColor="@color/crossedText"
                                         android:textSize="12sp" />
 
                                     <TextView
@@ -376,6 +379,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="true"
                             android:layout_marginTop="40dp"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
@@ -444,6 +448,7 @@
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
                                         android:text=" ̶8̶0̶ ̶р̶у̶б̶.̶"
+                                        android:textColor="@color/crossedText"
                                         android:textSize="12sp" />
 
                                     <TextView
@@ -502,6 +507,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="true"
                             android:layout_marginTop="40dp"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
@@ -570,6 +576,7 @@
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
                                         android:text=" ̶7̶5̶ ̶р̶у̶б̶.̶"
+                                        android:textColor="@color/crossedText"
                                         android:textSize="12sp" />
 
                                     <TextView
@@ -620,6 +627,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="true"
                             android:layout_marginTop="40dp"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
@@ -688,6 +696,7 @@
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
                                         android:text=" ̶9̶0̶ ̶р̶у̶б̶.̶"
+                                        android:textColor="@color/crossedText"
                                         android:textSize="12sp" />
 
                                     <TextView

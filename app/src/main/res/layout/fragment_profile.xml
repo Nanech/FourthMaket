@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".ProfileFragment">
 
 
@@ -49,6 +50,7 @@
             android:layout_marginTop="20dp"
             android:elevation="45dp"
             app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/white"
             app:cardElevation="10dp">
 
             <LinearLayout
@@ -64,7 +66,7 @@
                     android:fontFamily="@font/googlesans_bold"
                     android:text="Персональные данные"
                     android:textColor="@color/pink"
-                    android:textSize="10dp" />
+                    android:textSize="13dp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -170,6 +172,7 @@
                 android:layout_width="180dp"
                 android:layout_height="110dp"
                 android:layout_gravity="center"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
@@ -256,6 +259,7 @@
                 android:layout_height="110dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
@@ -300,6 +304,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:elevation="10dp"
+            app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp">
 
             <LinearLayout
@@ -399,6 +404,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:elevation="10dp"
+            app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp">
 
             <LinearLayout

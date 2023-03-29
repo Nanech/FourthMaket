@@ -6,6 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:fillViewport="true">
 
 
@@ -88,6 +89,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:background="@color/white"
                             android:orientation="horizontal">
 
                             <TextView
@@ -147,6 +149,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:background="@color/white"
                             android:orientation="horizontal">
 
                             <TextView
@@ -243,6 +246,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="true"
                             android:layout_marginTop="40dp"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
@@ -312,6 +316,7 @@
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
                                         android:text=" ̶4̶5̶ ̶р̶у̶б̶.̶̶"
+                                        android:textColor="@color/crossedText"
                                         android:textSize="12sp" />
 
                                     <TextView
@@ -362,6 +367,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="true"
                             android:layout_marginTop="40dp"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
@@ -430,6 +436,7 @@
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
                                         android:text=" ̶4̶5̶ ̶р̶у̶б̶.̶"
+                                        android:textColor="@color/crossedText"
                                         android:textSize="12sp" />
 
                                     <TextView
@@ -489,6 +496,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="true"
                             android:layout_marginTop="40dp"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
@@ -557,6 +565,7 @@
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
                                         android:text=" ̶2̶0̶0̶0̶ ̶р̶у̶б̶.̶"
+                                        android:textColor="@color/crossedText"
                                         android:textSize="12sp" />
 
                                     <TextView
@@ -608,6 +617,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="true"
                             android:layout_marginTop="40dp"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
@@ -676,6 +686,7 @@
                                         android:layout_marginStart="40dp"
                                         android:fontFamily="@font/googlesans_regular"
                                         android:text=" ̶1̶0̶0̶0̶ ̶р̶у̶б̶.̶"
+                                        android:textColor="@color/crossedText"
                                         android:textSize="12sp" />
 
                                     <TextView
